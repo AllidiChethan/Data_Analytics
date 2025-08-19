@@ -1,0 +1,11 @@
+Variable Name,Role,Type,Demographic,Description,Units,Missing Values
+school,Feature,Categorical,,student's school (binary: 'GP' - Gabriel Pereira or 'MS' - Mousinho da Silveira),,no
+sex,Feature,Binary,Sex,student's sex (binary: 'F' - female or 'M' - male),,no
+age,Feature,Integer,Age,student's age (numeric: from 15 to 22),,no
+address,Feature,Categorical,,student's home address type (binary: 'U' - urban or 'R' - rural),,no
+famsize,Feature,Categorical,Other,family size (binary: 'LE3' - less or equal to 3 or 'GT3' - greater than 3),,no
+Pstatus,Feature,Categorical,Other,parent's cohabitation status (binary: 'T' - living together or 'A' - apart),,no
+Medu,Feature,Integer,Education Level,"mother's education (numeric: 0 - none, 1 - primary education (4th grade), 2 - 5th to 9th grade, 3 - secondary education or 4 - higher education)",,no
+Fedu,Feature,Integer,Education Level,"father's education (numeric: 0 - none, 1 - primary education (4th grade), 2 â€“ 5th to 9th grade, 3 â€“ secondary education or 4 â€“ higher education)",,no
+Mjob,Feature,Categorical,Occupation,"mother's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')",,no
+Fjob,Feature,Categorical,Occupation,"father's job (nominal: 'teacher', 'health' care related, civil 'services' (e.g. administrative or police), 'at_home' or 'other')",,no
